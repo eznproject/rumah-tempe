@@ -24,7 +24,7 @@ export default function ContactPage() {
   };
 
   // Handler Submit
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setIsSubmitting(true);
 
